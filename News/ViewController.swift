@@ -12,6 +12,11 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .red
+    NetworkManager.shared.getNews { news in
+      if let news = news {
+        print(news[0])
+      }
+    }
   }
 
 
