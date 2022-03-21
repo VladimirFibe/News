@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023D18E327E80F8A00ECE3CD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D18E227E80F8900ECE3CD /* Extension.swift */; };
 		02C9FC8A27E77CFB0052F033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FC8927E77CFB0052F033 /* AppDelegate.swift */; };
 		02C9FC8C27E77CFB0052F033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FC8B27E77CFB0052F033 /* SceneDelegate.swift */; };
 		02C9FC8E27E77CFB0052F033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FC8D27E77CFB0052F033 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023D18E227E80F8900ECE3CD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		02C9FC8627E77CFB0052F033 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C9FC8927E77CFB0052F033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02C9FC8B27E77CFB0052F033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				02C9FC8927E77CFB0052F033 /* AppDelegate.swift */,
 				02C9FC8B27E77CFB0052F033 /* SceneDelegate.swift */,
 				02C9FC8D27E77CFB0052F033 /* ViewController.swift */,
+				023D18E227E80F8900ECE3CD /* Extension.swift */,
 				02C9FC9227E77CFD0052F033 /* Assets.xcassets */,
 				02C9FC9427E77CFD0052F033 /* LaunchScreen.storyboard */,
 				02C9FC9727E77CFD0052F033 /* Info.plist */,
@@ -197,6 +200,7 @@
 				02C9FC8E27E77CFB0052F033 /* ViewController.swift in Sources */,
 				02C9FC8A27E77CFB0052F033 /* AppDelegate.swift in Sources */,
 				02C9FC9F27E7821B0052F033 /* APIKey.swift in Sources */,
+				023D18E327E80F8A00ECE3CD /* Extension.swift in Sources */,
 				02C9FCC727E7B0930052F033 /* NewsViewModel.swift in Sources */,
 				02C9FCA227E782FD0052F033 /* News.swift in Sources */,
 				02C9FC8C27E77CFB0052F033 /* SceneDelegate.swift in Sources */,
