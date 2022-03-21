@@ -41,15 +41,21 @@ final class HeaderView: UIView {
   private lazy var headerStack: UIStackView = {
     let stack = UIStackView(arrangedSubviews: [headerCircleImage, headingLabel, plusImage])
     stack.axis = .horizontal
+    stack.spacing = 10
     return stack
   }()
   
   func setupUI() {
     addSubview(headerStack)
+    addSubview(subheadlineLabel)
+    headerStack.anchor(top: topAnchor, left: leftAnchor)
+    
+    subheadlineLabel.anchor(top: headerStack.bottomAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor, paddingTop: 8)
   }
   init(fontSize: CGFloat = 20) {
     self.fontSize = fontSize
     super.init(frame: .zero)
+    setupUI()
   }
   
   required init?(coder: NSCoder) {
